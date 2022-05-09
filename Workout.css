@@ -110,3 +110,20 @@ nav a, p, .FirstName, .LastName, .PhoneNumber, .Email, .Message, .copyrigth {
     font-family: "Roboto-BoldCondensed", sans-serif;
     text-transform: uppercase;
  }
+ .Register_btn, .Read_btn{
+    text-transform: unset;
+ }
+
+/*Mise en page: Element principaux*/
+
+h1, h3{
+   font-family: Roboto-BoldCondensed;
+}
+
+h1{
+   font-size: 2.5em;
+}
+
+h3{
+   font-size: 1.5em;
+}
