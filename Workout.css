@@ -31,7 +31,7 @@
 /*Positionement de la page Web*/
 
 .bloc_page {
-   width: 80%;
+   width: 60%;
    margin: 0 auto;
 }
 
@@ -55,7 +55,7 @@ body {
 /*Page d'acceuil*/
 
 #page_acceuil {
-   width: 80%;
+   width: 60%;
    margin: 0 auto;
    color: white;
 }
@@ -91,39 +91,103 @@ nav a {
    padding-right: 20px;
 }
 
-nav a, p, .FirstName, .LastName, .PhoneNumber, .Email, .Message, .copyrigth {
+nav a,
+p,
+.FirstName,
+.LastName,
+.PhoneNumber,
+.Email,
+.Message,
+.copyrigth {
    font-family: "Roboto-Regular", sans-serif;
+   font-size: 1.5em;
 }
 
-.fitgher{
+#fit{
+   margin-top: 200px;
+}
+
+
+
+.fitgher {
    font-family: 'Arbutus', cursive;
    text-transform: uppercase;
-   font-size: 3em;
+   font-size: 4em;
 }
 
-.empower{
+.red{
+   color: #FF4901;
+}
+
+.empower {
    font-size: 1.2em;
 }
 
 /*Button*/
- button{
-    font-family: "Roboto-BoldCondensed", sans-serif;
-    text-transform: uppercase;
- }
- .Register_btn, .Read_btn{
-    text-transform: unset;
- }
+button {
+   background-color: #FF4901;
+   color: white;
+   font-family: "Roboto-BoldCondensed", sans-serif;
+   font-size: 1.5em;
+   text-transform: uppercase;
+   display: block;
+   padding: 20px 40px;
+   border: none;
+}
+
+.GetStarted_btn{
+   margin-top: 280px;
+}
+
+.Register_btn,
+.Read_btn {
+   text-transform: unset;
+}
 
 /*Mise en page: Element principaux*/
 
-h1, h3{
+h1,
+h3 {
    font-family: Roboto-BoldCondensed;
 }
 
-h1{
+h1 {
    font-size: 2.5em;
 }
 
-h3{
+h3 {
    font-size: 1.5em;
+}
+
+.grid_container {
+   display: grid;
+   justify-content: space-evenly;
+   align-content: space-between;
+   grid-template-columns: auto auto;
+}
+
+.check_btn{
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.section_about{
+   background-color: black;
+   width: 100%;
+}
+
+.about{
+   color: white;
+   display: flex;
+   justify-content: space-between;
+}
+
+#workout{
+   margin-left: 292px;
+   width: 20%;
+}
+
+.section_classes{
+   background-color: #151313;
+   width: 100%;
 }
