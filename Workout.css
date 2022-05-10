@@ -103,7 +103,7 @@ p,
    font-size: 1.5em;
 }
 
-#fit{
+#fit {
    margin-top: 200px;
 }
 
@@ -115,7 +115,7 @@ p,
    font-size: 4em;
 }
 
-.red{
+.red {
    color: #FF4901;
 }
 
@@ -124,6 +124,8 @@ p,
 }
 
 /*Button*/
+
+
 button {
    background-color: #FF4901;
    color: white;
@@ -135,14 +137,38 @@ button {
    border: none;
 }
 
-.GetStarted_btn{
+.GetStarted_btn {
    margin-top: 280px;
 }
+
+.Read_btn {
+   padding: 10px 20px;
+   font-size: 1em;
+   position: relative;
+   left: 30px;
+   bottom: 20px;
+}
+
+.check_btn {
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 50px;
+   margin-bottom: 50px;
+}
+.schedule_btn{
+   margin-top: 80px;
+}
+
 
 .Register_btn,
 .Read_btn {
    text-transform: unset;
 }
+
+.classes_btn{
+   margin-top: 120px;
+}
+
 
 /*Mise en page: Element principaux*/
 
@@ -152,11 +178,12 @@ h3 {
 }
 
 h1 {
-   font-size: 2.5em;
+   font-size: 3em;
 }
 
 h3 {
    font-size: 1.5em;
+   margin-bottom: 0;
 }
 
 .grid_container {
@@ -166,28 +193,76 @@ h3 {
    grid-template-columns: auto auto;
 }
 
-.check_btn{
-   margin-left: auto;
-   margin-right: auto;
-}
-
-.section_about{
+.section_about {
    background-color: black;
    width: 100%;
 }
 
-.about{
+.about {
    color: white;
    display: flex;
    justify-content: space-between;
 }
 
-#workout{
+#workout {
    margin-left: 292px;
    width: 20%;
 }
 
-.section_classes{
+.section_classes {
    background-color: #151313;
    width: 100%;
+}
+
+.classes {
+   color: white;
+   display: flex;
+   flex-direction: row-reverse;
+   justify-content: space-between;
+}
+
+#class{
+   margin-top: 50px;
+   width: 40%;
+   margin-right: 292px;
+}
+
+
+
+#class h1 {
+   margin-top: 0;
+}
+
+.testimonies{
+   width: 60%;
+   margin: 0 auto;
+}
+
+.block{
+   display: flex;
+   align-items: center;
+}
+
+.change{
+   background-color: black;
+   color: white;
+}
+
+.change div{
+   width: 60%;
+   margin: 0 auto;
+   padding-top: 10px;
+   padding-bottom: 40px;
+}
+
+.section_contact{
+   background-color: black;
+   color: white;
+}
+
+#contact{
+   width: 60%;
+   margin: 0 auto;
+   display: flex;
+   justify-content: space-between;
 }
