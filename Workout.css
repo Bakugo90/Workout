@@ -155,7 +155,8 @@ button {
    margin-top: 50px;
    margin-bottom: 50px;
 }
-.schedule_btn{
+
+.schedule_btn {
    margin-top: 80px;
 }
 
@@ -165,8 +166,13 @@ button {
    text-transform: unset;
 }
 
-.classes_btn{
+.classes_btn {
    margin-top: 120px;
+}
+
+.submit_btn {
+   margin-top: 50px;
+   margin-bottom: 30px;
 }
 
 
@@ -221,7 +227,7 @@ h3 {
    justify-content: space-between;
 }
 
-#class{
+#class {
    margin-top: 50px;
    width: 40%;
    margin-right: 292px;
@@ -233,36 +239,95 @@ h3 {
    margin-top: 0;
 }
 
-.testimonies{
+.testimonies {
    width: 60%;
    margin: 0 auto;
 }
 
-.block{
+.block {
    display: flex;
    align-items: center;
 }
 
-.change{
+.change {
    background-color: black;
    color: white;
 }
 
-.change div{
+.change div {
    width: 60%;
    margin: 0 auto;
    padding-top: 10px;
    padding-bottom: 40px;
 }
 
-.section_contact{
+/*footer*/
+
+.section_contact {
    background-color: black;
    color: white;
 }
 
-#contact{
+#contact {
    width: 60%;
    margin: 0 auto;
    display: flex;
    justify-content: space-between;
+}
+
+.LastName,
+.FirstName {
+   display: inline;
+}
+
+.FirstName {
+   padding-right: 80px;
+   padding-bottom: 8px;
+   border-bottom: 2px solid white;
+}
+
+.LastName {
+   margin-left: 50px;
+   padding-right: 80px;
+   padding-bottom: 8px;
+   border-bottom: 2px solid white;
+}
+
+.num {
+   display: block;
+   margin-top: 50px;
+}
+
+.Email,
+.PhoneNumber {
+   display: inline;
+}
+
+.Email {
+   padding-right: 145px;
+   padding-bottom: 8px;
+   border-bottom: 2px solid white;
+}
+
+.PhoneNumber {
+   margin-left: 40px;
+   padding-right: 35px;
+   padding-bottom: 8px;
+   border-bottom: 2px solid white;
+}
+
+.Message {
+   margin-top: 50px;
+   padding-right: 35px;
+   padding-bottom: 80px;
+   border-bottom: 2px solid white;
+}
+
+.facebook,
+.fa-brands fa-facebook-square {
+   display: inline;
+}
+
+.fa {
+   margin-top: 20px;
 }
