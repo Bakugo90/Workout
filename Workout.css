@@ -28,12 +28,19 @@
    font-style: normal;
 }
 
+*{
+   box-sizing: border-box;
+}
+
+
+
 /*Positionement de la page Web*/
 
 .bloc_page {
    width: 60%;
    margin: 0 auto;
 }
+
 
 body {
    margin: 0;
@@ -196,6 +203,7 @@ h3 {
    display: grid;
    justify-content: space-evenly;
    align-content: space-between;
+   column-gap: 50px;
    grid-template-columns: auto auto;
 }
 
@@ -323,7 +331,8 @@ h3 {
    border-bottom: 2px solid white;
 }
 
-.fa h4, .fa-brands fa-facebook-square {
+.fa h4,
+.fa-brands fa-facebook-square {
    display: inline;
 }
 
@@ -331,56 +340,64 @@ h3 {
    margin-top: Spx;
 }
 
-.fa-brands fa-instagram-square, .instagram h4{
+.fa-brands fa-instagram-square,
+.instagram h4 {
    display: inline;
 }
 
-.fa-brands fa-twitter, .twitter h4{
+.fa-brands fa-twitter,
+.twitter h4 {
    display: inline;
 }
-h4{
+
+h4 {
    font-family: "Roboto-Medium", sans-serif;
 }
 
-.fa, .instagram, .twitter{
+.fa,
+.instagram,
+.twitter {
    line-height: 3em;
 }
-.instagram img{
+
+.instagram img {
    width: 40px;
    height: 40px;
    vertical-align: middle;
 }
 
-.sponsor{
+.sponsor {
    width: 60%;
    margin: 0 auto;
 }
 
-.mma{
+.mma {
    width: 200px;
    height: 100px;
 }
 
-.yoga{
+.yoga {
    width: 400px;
    height: 100px;
 }
-.wba{
+
+.wba {
    width: 200px;
    height: 100px;
 }
-.image{
+
+.image {
    margin-bottom: 30px;
-     display: flex;
-     justify-content: space-evenly;
+   display: flex;
+   justify-content: space-evenly;
 }
 
-.copy{
+.copy {
    background-color: black;
    color: white;
 }
 
-.copyrigth{
+.copyrigth {
    width: 500px;
    margin-right: auto;
    margin-left: auto;
