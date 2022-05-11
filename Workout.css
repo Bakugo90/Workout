@@ -323,11 +323,65 @@ h3 {
    border-bottom: 2px solid white;
 }
 
-.facebook,
-.fa-brands fa-facebook-square {
+.fa h4, .fa-brands fa-facebook-square {
    display: inline;
 }
 
 .fa {
-   margin-top: 20px;
+   margin-top: Spx;
+}
+
+.fa-brands fa-instagram-square, .instagram h4{
+   display: inline;
+}
+
+.fa-brands fa-twitter, .twitter h4{
+   display: inline;
+}
+h4{
+   font-family: "Roboto-Medium", sans-serif;
+}
+
+.fa, .instagram, .twitter{
+   line-height: 3em;
+}
+.instagram img{
+   width: 40px;
+   height: 40px;
+   vertical-align: middle;
+}
+
+.sponsor{
+   width: 60%;
+   margin: 0 auto;
+}
+
+.mma{
+   width: 200px;
+   height: 100px;
+}
+
+.yoga{
+   width: 400px;
+   height: 100px;
+}
+.wba{
+   width: 200px;
+   height: 100px;
+}
+.image{
+   margin-bottom: 30px;
+     display: flex;
+     justify-content: space-evenly;
+}
+
+.copy{
+   background-color: black;
+   color: white;
+}
+
+.copyrigth{
+   width: 500px;
+   margin-right: auto;
+   margin-left: auto;
 }
