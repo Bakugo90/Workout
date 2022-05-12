@@ -111,7 +111,8 @@ p,
 }
 
 #fit {
-   margin-top: 200px;
+    margin-top: 200px;
+   
 }
 
 
@@ -145,7 +146,7 @@ button {
 }
 
 .GetStarted_btn {
-   margin-top: 280px;
+  margin-top: 200px;
 }
 
 .Read_btn {
@@ -174,7 +175,7 @@ button {
 }
 
 .classes_btn {
-   margin-top: 120px;
+   margin-top: 100px;
 }
 
 .submit_btn {
@@ -200,6 +201,8 @@ h3 {
 }
 
 .grid_container {
+   width: 100%;
+   height: 100%;
    display: grid;
    justify-content: space-evenly;
    align-content: space-between;
@@ -207,9 +210,35 @@ h3 {
    grid-template-columns: auto auto;
 }
 
+.grid_container > div > img{
+   width: 568px; 
+   height: 437px
+}
+.body{
+   width: 568px; 
+   height: 437px;
+}
+
+.press{
+   width: 568px; 
+   height: 437px;
+}
+
+.air_yoga{
+   width: 568px; 
+   height: 437px;
+}
+
 .section_about {
    background-color: black;
    width: 100%;
+}
+
+.workout{
+   background-image: url(image/bodybuilder.jpeg);
+   background-size: cover;
+   width: 50%;
+   height: 50vh;
 }
 
 .about {
@@ -219,14 +248,15 @@ h3 {
 }
 
 #workout {
-   margin-left: 292px;
-   width: 20%;
+   margin-left: auto;
+   width: 40%;
 }
 
 .section_classes {
    background-color: #151313;
    width: 100%;
 }
+
 
 .classes {
    color: white;
@@ -237,8 +267,8 @@ h3 {
 
 #class {
    margin-top: 50px;
-   width: 40%;
-   margin-right: 292px;
+   width: 30%;
+   margin-right: auto;
 }
 
 
@@ -337,7 +367,7 @@ h3 {
 }
 
 .fa {
-   margin-top: Spx;
+   margin-top: 5px;
 }
 
 .fa-brands fa-instagram-square,
@@ -402,3 +432,175 @@ h4 {
    margin-right: auto;
    margin-left: auto;
 }
+
+.about img{
+   width: 800px; 
+   height: 600px;
+}
+
+.classes img{
+   width: 900px; 
+   height: 600px;
+}
+
+/*MediaQueries*/
+
+@media all and (max-width:1602px) {
+   #page_acceuil {
+      width: 80%;
+      margin: 0 auto;
+   }
+   .bloc_page {
+      width: 80%;
+      margin: 0 auto;
+   }
+   
+   .testimonies {
+   width: 80%;
+   margin: 0 auto;
+}
+.change div {
+   width: 80%;
+   margin: 0 auto;
+}
+#contact {
+   width: 80%;
+   margin: 0 auto;
+}
+.sponsor {
+   width: 80%;
+   margin: 0 auto;
+}
+#contact {
+   width: 80%;
+   margin: 0 auto;
+}
+}
+
+@media all and (max-width:1500px) {
+   #page_acceuil {
+      width: 90%;
+      margin: 0 auto;
+   }
+   .bloc_page {
+      width: 90%;
+      margin: 0 auto;
+   }
+   
+   .testimonies {
+   width: 90%;
+   margin: 0 auto;
+}
+.change div {
+   width: 90%;
+   margin: 0 auto;
+}
+#contact {
+   width: 90%;
+   margin: 0 auto;
+}
+.sponsor {
+   width: 90%;
+   margin: 0 auto;
+}
+#contact {
+   width: 90%;
+   margin: 0 auto;
+}
+
+.grid_container > div > img{
+   width: 468px; 
+   height: 337px
+}
+.body{
+   width: 468px; 
+   height: 337px;
+}
+
+.press{
+   width: 468px; 
+   height: 337px;
+}
+
+.air_yoga{
+   width: 468px; 
+   height: 337px;
+}
+
+.about img{
+   width: 700px; 
+   height: 500px;
+}
+
+.classes img{
+   width: 800px; 
+   height: 500px;
+}
+
+}
+
+@media all and (max-width:1230px){
+   .schedule_btn {
+      margin-top: 10px;
+   }
+   
+   .classes_btn {
+      margin-top: 10px;
+      margin-bottom: 20px;
+   }
+
+   h1{
+      font-size: 2em;
+   }
+   p{
+      font-size: 1em
+   }
+
+   .about img{
+      width: 600px; 
+      height: 400px;
+   }
+   
+   .classes img{
+      width: 500px; 
+      height: 400px;
+
+      }
+
+      button {
+         font-family: "Roboto-BoldCondensed", sans-serif;
+         font-size: 1em;
+         text-transform: uppercase;
+         display: block;
+         padding: 10px 20px;
+         border: none;
+      }
+      nav a{
+         font-size: 1em;
+      }
+      #class {
+         margin-top: 50px;
+         width: 50%;
+         margin-right: auto;
+      }
+
+      .about img{
+         width: 500px; 
+         height: 300px;
+      }
+      
+      .classes img{
+         width: 500px; 
+         height: 300px;
+      }
+}
+
+@media all and (max-width:1002px){
+
+     .grid_container{
+      width: 100%;
+      display: inline-grid;
+      grid-template-columns: auto;
+   }
+
+} 
