@@ -111,7 +111,7 @@ p,
 }
 
 #fit {
-   margin-top: 200px;
+  margin-top: 200px;
 
 }
 
@@ -437,12 +437,12 @@ h4 {
 }
 
 .copy {
+   width: 100%;
    background-color: black;
    color: white;
 }
 
 .copyrigth {
-   width: 500px;
    margin-right: auto;
    margin-left: auto;
 }
@@ -562,6 +562,18 @@ h4 {
       height: 500px;
    }
 
+   #fit {
+    font-size: 0.8em;
+    
+    }
+
+    h1{
+       font-size: 2em;
+    }
+    p{
+       font-size: 1em;
+    }
+
 }
 
 @media all and (max-width:1230px) {
@@ -671,7 +683,7 @@ h4 {
 
 }
 
-@media all and (max-width:792px) {
+@media all and (max-width:805px) {
    #nav img {
       width: 80px;
       height: 80px;
@@ -737,6 +749,9 @@ h4 {
       padding-bottom: 80px;
       border-bottom: 2px solid white;
    }
+   .copy div{
+      font-size: 1em;
+   }
 
 }
 
@@ -764,5 +779,43 @@ h4 {
    .yoga {
       width: 80%;
       height: 100px;
+   }
+   #fit {
+      margin-top: 200px;
+    
+    }
+
+    h1{
+       font-size: 1.5em;
+    }
+    p{
+       font-size: 0.8em;
+    }
+    .workout {
+      background-image: url(image/bodybuilder.jpeg);
+      background-position: center;
+      background-size: cover;
+      width: 50%;
+      height: 25vh;
+   }
+   .girl {
+      background-image: url(image/Fitness\ Girl.jpg);
+      background-position: center;
+      background-size: cover;
+      width: 50%;
+      height: 25vh;
+   }
+   .mma {
+      width: 90px;
+      height: 80px;
+   }
+   
+   .wba {
+      width: 90px;
+      height: 80px;
+   }
+   
+   .wbc {
+      height: 80px;
    }
 }
