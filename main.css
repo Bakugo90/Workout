@@ -253,7 +253,7 @@ h3 {
    margin: auto;
 }
 
-.girl{
+.girl {
    background-image: url(image/Fitness\ Girl.jpg);
    background-position: center;
    background-size: cover;
@@ -276,8 +276,8 @@ h3 {
 }
 
 #class {
-  width: 40%;
-  margin: auto;
+   width: 40%;
+   margin: auto;
 }
 
 
@@ -318,47 +318,47 @@ h3 {
 #contact {
    width: 60%;
    margin: 0 auto;
+   display: block;
    display: flex;
    justify-content: space-between;
 }
 
-.LastName,
-.FirstName {
-   display: inline;
+/*Formulaire*/
+
+
+input {
+   background-color: unset;
+   color: white;
+   border: none;
 }
 
 .FirstName {
-   padding-right: 80px;
    padding-bottom: 8px;
    border-bottom: 2px solid white;
 }
 
 .LastName {
    margin-left: 50px;
-   padding-right: 80px;
    padding-bottom: 8px;
    border-bottom: 2px solid white;
+}
+
+.name {
+   display: flex;
 }
 
 .num {
-   display: block;
+   display: flex;
    margin-top: 50px;
 }
 
-.Email,
-.PhoneNumber {
-   display: inline;
-}
-
 .Email {
-   padding-right: 145px;
    padding-bottom: 8px;
    border-bottom: 2px solid white;
 }
 
 .PhoneNumber {
-   margin-left: 40px;
-   padding-right: 35px;
+   margin-left: 50px;
    padding-bottom: 8px;
    border-bottom: 2px solid white;
 }
@@ -411,22 +411,24 @@ h4 {
 }
 
 .mma {
-   width: 40%;
+   width: auto;
    height: 100px;
 }
 
 .yoga {
-   width: 50%;
+   width: auto;
    height: 100px;
 }
 
 .wba {
-   width: 40%;
+   width: auto;
    height: 100px;
 }
-.wbc{
+
+.wbc {
    height: 100px;
 }
+
 .image {
    width: 100%;
    margin-bottom: 30px;
@@ -667,4 +669,100 @@ h4 {
       justify-content: space-around;
    }
 
+}
+
+@media all and (max-width:792px) {
+   #nav img {
+      width: 80px;
+      height: 80px;
+      padding: 0;
    }
+   #Register_btn{
+      display: none;
+   }
+
+   #contact {
+      flex-wrap: wrap;
+   }
+}
+
+@media all and (max-width:634px) {
+   
+   input{
+      display: block;
+   }
+   .FirstName {
+      padding-bottom: 8px;
+      border-bottom: 2px solid white;
+      margin-bottom: 30px;
+   }
+
+   .LastName {
+      padding-bottom: 8px;
+      margin-left: 0px;
+      border-bottom: 2px solid white;
+   }
+
+   .name {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      margin-bottom: 30px;
+   }
+
+   .num {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      margin-bottom: 30px;
+      margin: 0;
+      padding: 0;
+   }
+
+   .Email {
+      margin-bottom: 30px;
+      padding-bottom: 8px;
+      border-bottom: 2px solid white;
+   }
+
+   .PhoneNumber {
+      margin-left: 0;
+      padding-bottom: 8px;
+      border-bottom: 2px solid white;
+   }
+
+   .Message {
+      margin-top: 50px;
+      padding-right: 35px;
+      padding-bottom: 80px;
+      border-bottom: 2px solid white;
+   }
+
+}
+
+@media all and (max-width:572px){
+   nav a{
+     font-size: 0.7em;
+     padding-right: 5px;
+   }
+   #fit{
+      margin-top: 0;
+      font-size: 0.8em;
+   }
+   .grid_container {
+      display: none;
+   }
+   .about img {
+      width: 100px;
+      height: 300px;
+   }
+
+   .classes img {
+      width: 100px;
+      height: 300px;
+   }
+   .yoga {
+      width: 80%;
+      height: 100px;
+   }
+}

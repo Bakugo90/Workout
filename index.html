@@ -29,14 +29,13 @@
                         </ul>
                     </nav>
                 </div>
-                <button class="Register_btn">Register Now</button>
+                <button id="Register_btn">Register Now</button>
             </div>
             <div id="fit">
                 <p class="fitgher">make you </br> be the </br> <span class="red">fitgher</span></p>
                 <p class="empower">Empower yourself to make the changes <br> you need to make.</p>
-                <button class="GetStarted_btn">Let's get started</button>
             </div>
-
+            <button class="GetStarted_btn">Let's get started</button>
         </div>
     </div>
     <div class="bloc_page">
@@ -137,14 +136,18 @@
         <div class="section_contact">
             <div id="contact">
                 <div class="contactus">
+                    <form method="post" action="traitement.php">
                     <h1>Contact Us</h1>
-                    <div class="FirstName">First name </div>
-                    <div class="LastName">Last name</div>
-                    <div class="num">
-                        <div class="Email">Email</div>
-                        <div class="PhoneNumber">Phone Number</div>
+                    <div class="name">
+                        <input class="FirstName" placeholder="First Name"></input>
+                        <input class="LastName" placeholder="Last Name"></input>
                     </div>
-                    <div class="Message">Message</div>
+                    <div class="num">
+                        <input class="Email" placeholder="Email"></input>
+                        <input class="PhoneNumber" placeholder="Phone Number"></input>
+                    </div>
+                    <input class="Message" placeholder="Message"></input>
+                    </form>
                     <button class="submit_btn">submit</button>
                 </div>
                 <div class="foolowus">
