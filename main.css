@@ -825,3 +825,9 @@ h4 {
       height: 80px;
    }
 }
+
+@media all and (max-width:400px){
+   .pri{
+      display: none;
+ }
+}
