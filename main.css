@@ -442,10 +442,6 @@ h4 {
    color: white;
 }
 
-.copyrigth {
-   margin-right: auto;
-   margin-left: auto;
-}
 
 .about img {
    width: 800px;
@@ -574,7 +570,16 @@ h4 {
     p{
        font-size: 1em;
     }
-
+    nav a{
+       font-size: 1em;
+    }
+    .GetStarted_btn{
+       margin: 0;
+    }
+    button {
+      padding: 10px 20px;
+      font-size: 1.2em;
+   }
 }
 
 @media all and (max-width:1230px) {
