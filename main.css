@@ -596,6 +596,9 @@ form {
       padding: 10px 20px;
       font-size: 1.2em;
    }
+   #fit{
+      margin-top: 100px;
+   }
 }
 
 @media all and (max-width:1230px) {
@@ -670,6 +673,9 @@ form {
    }
 
    .GetStarted_btn {
+      margin-top: 100px;
+   }
+   #fit{
       margin-top: 100px;
    }
 }
