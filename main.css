@@ -146,9 +146,6 @@ button {
    border: none;
 }
 
-.GetStarted_btn {
-   margin-top: 200px;
-}
 
 .Read_btn {
    padding: 10px 20px;
@@ -167,6 +164,7 @@ button {
 
 .schedule_btn {
    margin-top: 80px;
+   margin-bottom: 1.5em;
 }
 
 
@@ -177,6 +175,7 @@ button {
 
 .classes_btn {
    margin-top: 100px;
+   margin-bottom: 1.5em;
 }
 
 .submit_btn {
@@ -235,7 +234,7 @@ h3 {
 }
 
 .workout {
-   background-image: url(image/bodybuilder.jpeg);
+   background-image: url(image/bodybuilder.webp);
    background-position: center;
    background-size: cover;
    width: 50%;
@@ -254,7 +253,7 @@ h3 {
 }
 
 .girl {
-   background-image: url(image/Fitness_Girl.jpg);
+   background-image: url(image/Fitness_Girl.webp);
    background-position: center;
    background-size: cover;
    width: 50%;
