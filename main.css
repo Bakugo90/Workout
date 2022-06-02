@@ -101,7 +101,11 @@ nav a {
    text-decoration: none;
    padding-right: 20px;
 }
-
+#nav img {
+  max-width: 5%;
+   height: auto;
+   padding: 0;
+}
 nav a,
 p,
 .FirstName,
@@ -415,22 +419,22 @@ form {
 }
 
 .mma {
-   max-width: 100%;
+   max-width: 20%;
    height: auto;
 }
 
 .yoga {
-   max-width: 100%;
+   max-width: 20%;
    height: auto;
 }
 
 .wba {
-   max-width: 100%;
+   max-width: 20%;
    height: auto;
 }
 
 .wbc {
-   max-width: 100%;
+   max-width: 20%;
    height: auto;
 }
 
@@ -443,7 +447,7 @@ form {
 }
 
 .copy {
-  max-width: 100%;
+   max-width: 100%;
    background-color: black;
    color: white;
 }
@@ -718,11 +722,7 @@ form {
 }
 
 @media all and (max-width:805px) {
-   #nav img {
-      width: 80px;
-      height: 80px;
-      padding: 0;
-   }
+  
 
    #contact {
       flex-wrap: wrap;
@@ -856,7 +856,7 @@ form {
       width: 50%;
    }
 
-   
+
 }
 
 @media all and (max-width:412px) {
@@ -867,7 +867,8 @@ form {
    .copyrigth {
       width: 80%;
    }
-   input{
+
+   input {
       max-width: 100%;
    }
 }
