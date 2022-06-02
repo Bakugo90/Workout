@@ -102,7 +102,7 @@ nav a {
    padding-right: 20px;
 }
 #nav img {
-  max-width: 5%;
+  max-width: 20%;
    height: auto;
    padding: 0;
 }
@@ -419,22 +419,22 @@ form {
 }
 
 .mma {
-   max-width: 20%;
+   max-width: 80%;
    height: auto;
 }
 
 .yoga {
-   max-width: 20%;
+   max-width: 100%;
    height: auto;
 }
 
 .wba {
-   max-width: 20%;
+   max-width: 80%;
    height: auto;
 }
 
 .wbc {
-   max-width: 20%;
+   max-width: 100%;
    height: auto;
 }
 
