@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Arbutus&display=swap');
+
+
+
 /*Police*/
 
 @font-face {
@@ -70,7 +74,6 @@ body {
 #page_acceuil img {
    width: 154px;
    height: 152px;
-   margin-left: -25px;
 }
 
 li {
@@ -412,33 +415,35 @@ form {
 }
 
 .mma {
-   width: auto;
-   height: 100px;
+   max-width: 100%;
+   height: auto;
 }
 
 .yoga {
-   width: auto;
-   height: 100px;
+   max-width: 100%;
+   height: auto;
 }
 
 .wba {
-   width: auto;
-   height: 100px;
+   max-width: 100%;
+   height: auto;
 }
 
 .wbc {
-   height: 100px;
+   max-width: 100%;
+   height: auto;
 }
 
 .image {
    width: 100%;
    margin-bottom: 30px;
    display: flex;
+   align-items: center;
    justify-content: space-evenly;
 }
 
 .copy {
-   width: 100%;
+  max-width: 100%;
    background-color: black;
    color: white;
 }
@@ -596,7 +601,8 @@ form {
       padding: 10px 20px;
       font-size: 1.2em;
    }
-   #fit{
+
+   #fit {
       margin-top: 100px;
    }
 }
@@ -675,7 +681,8 @@ form {
    .GetStarted_btn {
       margin-top: 100px;
    }
-   #fit{
+
+   #fit {
       margin-top: 100px;
    }
 }
@@ -705,7 +712,6 @@ form {
    .image {
       margin-bottom: 30px;
       display: flex;
-      flex-wrap: wrap;
       justify-content: space-around;
    }
 
@@ -822,11 +828,6 @@ form {
       height: 300px;
    }
 
-   .yoga {
-      width: 80%;
-      height: 100px;
-   }
-
    #fit {
       margin-top: 200px;
 
@@ -841,33 +842,21 @@ form {
    }
 
    .workout {
-      background-image: url(image/bodybuilder.jpeg);
+      background-image: url(image/bodybuilder.webp);
       background-position: center;
       background-size: cover;
       width: 50%;
    }
 
    .girl {
-      background-image: url(image/Fitness_Girl.jpg);
+      background-image: url(image/Fitness_Girl.webp);
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
       width: 50%;
    }
 
-   .mma {
-      width: 90px;
-      height: 80px;
-   }
-
-   .wba {
-      width: 90px;
-      height: 80px;
-   }
-
-   .wbc {
-      height: 80px;
-   }
+   
 }
 
 @media all and (max-width:412px) {
@@ -877,5 +866,8 @@ form {
 
    .copyrigth {
       width: 80%;
+   }
+   input{
+      max-width: 100%;
    }
 }
